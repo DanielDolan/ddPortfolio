@@ -83,7 +83,7 @@ body {
 .typingContainer {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -126,6 +126,12 @@ body {
 .hiders p:nth-child(5) {
   animation-delay: 4s;
 }
+.hiders p:nth-child(6) {
+  animation-delay: 5s;
+}
+.hiders p:nth-child(7) {
+  animation-delay: 6s;
+}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -135,4 +141,15 @@ body {
   text-align: center;
   font-size: 25px;
   font-family: 'Poppins', sans-serif;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
