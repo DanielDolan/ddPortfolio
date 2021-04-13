@@ -27,6 +27,21 @@
 .nav-link, .navbar-brand{
   color: black;
 }
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color:gainsboro;
+}
+
+/* Navbar links */
+#navbar a {
+ 
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
 
 .container-fluid{
     width: 100%;
@@ -84,6 +99,7 @@ body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   margin-top: 50px;
