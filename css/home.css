@@ -169,3 +169,39 @@ body {
 .sticky + .content {
   padding-top: 50px;
 }
+.archbody{
+  display: flex;
+  flex-direction: column;
+}
+
+.abtopvideo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abtopvideo h1 {
+  color: black;
+  
+}
+
+.fluidmediasize{
+  width: 40%;
+  height: 50;
+}
+.fluidMedia {
+  position: relative;
+  padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.fluidMedia iframe {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
